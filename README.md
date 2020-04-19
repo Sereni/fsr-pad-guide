@@ -1,9 +1,9 @@
 # Building a dance pad with FSR and Arduino
 
-For dance gamers stuck at home and looking to build a pad or bring an old one back to life. <3
+For dance gamers stuck at home and looking bring an old pad back to life or build a new one. <3
 
 ## What are FSRs?
-FSR stands for Force-Sensitive Resistor. They are thin pieces of film used to recognize varying degrees of pressure. At rest the FSR's resistance is close to infinity, but it decreases when pressure is applied. As the resistance goes down, the voltage in the circuit goes up. Measuring the voltage indicates how much pressure is applied to the sensor.
+FSR stands for Force-Sensitive Resistor. It is a thin piece of conductive material used to recognize varying degrees of pressure. At rest the FSR's resistance is close to infinity, but it decreases when pressure is applied. As the resistance goes down, the voltage in the circuit goes up. Measuring the voltage indicates how much pressure is applied to the sensor.
 
 ## Why use FSRs for dance pads?
 * Thin profile: they easily fit under the panels of both arcade and home pads, allowing to try them out with minimal modification to pad structure. They are also easy to incorporate into a home-made pad.
@@ -13,7 +13,7 @@ FSR stands for Force-Sensitive Resistor. They are thin pieces of film used to re
 
 ## How to make it work
 ### Materials
-
+You will need:
 * A control board, such as an Arduino. I used a Teensy 2.0 board, but others can also work. Ensure that:
   * Your board has enough analog pins to accommodate the number of sensors you wish to connect.
   * The board can be used as a keyboard or serial device, depending on which sketch you choose.
@@ -32,7 +32,7 @@ Points of interest:
 * A — an analog pin which measures voltage.
 * FSR — the FSR is connected with two wires, off-picture.
 * R — the pulldown resistor that prevents short-circuiting.
-* GND — ground pin on the board.
+* GND — the ground pin on the board.
 
 ![](fsr-circuit.jpg)
 
@@ -40,7 +40,7 @@ If you wish to connect more than one FSR per panel, connect them in parallel to 
 
 ### Firmware and software
 
-To interpret voltage readings, you will need to program your board with an Arduino sketch. At a minimum, the sketch should read voltage on the pins, and determine whether or not it is higher than a certain threshold. When it is, the board should send a keystroke or a joystick button press. A more advanced sketch would also linearize voltage and handle debounce so that the panels do not double-trigger.
+To interpret voltage readings, you will need to program your board with an Arduino sketch. At a minimum, the sketch should read voltage on the pins, and determine whether or not it is higher than a certain threshold. When it is, the board should send a keystroke or a joystick button press. A more advanced sketch would also linearize the voltage and handle double-triggering.
 
 While you don't necessarily need any software to use the board, it is helpful to at least output sensor readings to the command line for debugging. It could also be helpful to have an interface to change sensor thresholds and reload the sketch to the board.
 
