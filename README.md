@@ -34,7 +34,7 @@ Points of interest:
 
 ![](fsr-circuit.jpg)
 
-If you wish to connect more than one FSR per panel, connect them in parallel to the same resistor and pin. Pressing either FSR will trigger the panel. You may also connect them to separate pins, which will give you multiple readings per panel, but will also require writing code to interpret separate readings.
+If you wish to connect more than one FSR per panel, connect them in parallel to the same resistor and pin. Pressing any of the FSRs will trigger the panel. You may also connect them to separate pins, and bind the pins to one button.
 
 ### Firmware and software
 
