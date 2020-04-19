@@ -49,5 +49,9 @@ Here are two existing FSR dance pad repositories worth checking out:
 ### Installing the sensors
 Tape the sensors to the L-bracket or the frame in your pad, so that they are in contact with the panel. The sensor may not respond well if the pressure from the panel is distributed elsewhere. To fix this, put 1-2 layers of tape size of a thumbnail onto the center of the sensor. The pressure will go into this area first, making the sensors a lot more sensitive. If your panels bend a lot, like in Cobalt Flux-like home pads, reinforce the areas under the panels with some firm material, such as linoleum or tape. Nothing like good tape to fix a pad.
 
+Installation example: one FSR on the L-bracket in the up panel, two FSRs on dedicated brackets in the left panel. The control box is hidden under one of the metal panels.
+
+![](fsr-installation.jpg)
+
 ## Feedback
 Questions, corrections, feedback? Holler at u/SereniRi!
