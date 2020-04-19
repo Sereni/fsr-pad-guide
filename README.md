@@ -34,7 +34,9 @@ Points of interest:
 * R — the pulldown resistor that prevents short-circuiting.
 * GND — the ground pin on the board.
 
-![](fsr-circuit.jpg)
+| Breadboard | Diagram |
+|---|---|
+| ![](fsr-circuit.jpg) | ![](teensy-diagram.png) |
 
 If you wish to connect more than one FSR per panel, connect them in parallel to the same resistor and pin. Pressing either FSR will trigger the panel. You may also connect them to separate pins, which will give you multiple readings per panel, but will also require writing code to interpret separate readings.
 
