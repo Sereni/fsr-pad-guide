@@ -34,7 +34,7 @@ Points of interest:
 
 ![](fsr-circuit.jpg)
 
-If you wish to connect more than one FSR per panel, connect them in parallel to the same resistor and pin. Pressing any of the FSRs will trigger the panel. You may also connect them to separate pins, and bind the pins to one button.
+If you wish to use more than one FSR per panel, connect them in parallel to the same resistor and pin. Pressing any of the FSRs will trigger the panel. You may also connect them to separate pins, and bind the pins to one button.
 
 ### Firmware and software
 
@@ -47,7 +47,7 @@ Here are two existing FSR dance pad repositories worth checking out:
 * [analog-dance-pad](https://github.com/kauhsa/analog-dance-pad) contains firmware specifically for Teensy 2, and a web application to configure sensitivity. Unlike the above, guarantees 1000Hz communication rate and allows to hotswap sensitivity values.
 
 ### Installing the sensors
-Tape the sensors to the L-bracket or the frame in your pad, so that they are in contact with the panel. The sensor may not respond well if the pressure from the panel is distributed elsewhere. To fix this, put a few layers of tape size of a thumbnail onto the center of the sensor. The pressure will go into this area first, making the sensors a lot more sensitive. If your panels bend a lot, like in Cobalt Flux-like home pads, reinforce the areas under the panels with some firm material, such as linoleum or tape. Nothing like good tape to fix a pad.
+Tape the sensors to the L-bracket or the frame in your pad, so that they are in contact with the panel. The sensor may not respond well if the pressure from the panel is distributed elsewhere. To fix this, put 1-2 layers of tape size of a thumbnail onto the center of the sensor. The pressure will go into this area first, making the sensors a lot more sensitive. If your panels bend a lot, like in Cobalt Flux-like home pads, reinforce the areas under the panels with some firm material, such as linoleum or tape. Nothing like good tape to fix a pad.
 
 ## Feedback
 Questions, corrections, feedback? Holler at u/SereniRi!
