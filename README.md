@@ -17,7 +17,7 @@ FSR stands for Force-Sensitive Resistor. It is a thin piece of conductive materi
 ### Materials
 You will need:
 * An Arduino that can communicate via USB. You probably want something that uses an ATmega32U4 controller, for example an Arduino Leonardo, an Arduino Micro, or a Teensy 2. Ensure that your board has enough analog pins to accommodate the number of sensors you wish to connect. You may want to order one with pre-soldered pins.
-* FSRs, at least one per panel. They come in different shapes and withstand different pressures. I use FSR406 or FSR402.
+* FSRs, at least one per panel. They come in different shapes and withstand different pressures. I use FSR406 and FSR402.
 * Resistors. They prevent the FSR from short-circuiting. Experiment with resistance values to get a good sensitivity range, which will depend on the type of FSR. I use 330 Ohm.
 * Wires, to connect the FSRs and the board. If in doubt, search for "jumper wire" and get a variety of connectors (F-F, M-M, M-F). They can be chained together to make a longer wire.
 * A breadboard to prototype the circuit. The breadboard can stay forever in the control box if you don't feel like soldering anything.
