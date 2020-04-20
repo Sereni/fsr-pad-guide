@@ -38,7 +38,7 @@ Points of interest:
 |---|---|
 | ![](fsr-circuit.jpg) | ![](teensy-diagram.png) |
 
-If you wish to use more than one FSR per panel, connect them in parallel to the same resistor and pin. Pressing any of the FSRs will trigger the panel. You may also connect them to separate pins, and bind the pins to one button.
+If you wish to use more than one FSR per panel, connect them in parallel to the same resistor and pin. Pressing any of the FSRs will trigger the panel. You may also connect them to separate pins, and bind the pins to one key press.
 
 ### Firmware and software
 
@@ -49,6 +49,8 @@ While you don't necessarily need any software to use the board, it is helpful to
 Here are two existing FSR dance pad repositories worth checking out:
 * [mckyla-fsr](https://github.com/hippaheikki/mckyla-fsr) provides a sketch for a 4-sensor pad with normalization and anti-vibration, as well as a web interface to change sensitivity. It includes player profiles, which is great for multiple-user setups.
 * [analog-dance-pad](https://github.com/kauhsa/analog-dance-pad) contains firmware specifically for Teensy 2, and a web application to configure sensitivity. Unlike the above, guarantees 1000Hz communication rate and allows to hotswap sensitivity values.
+
+Pick an existing firmware + UI combination above, or roll your own, and the sensors should be ready to go! Verify that they register pressure and send back a key or a joystick button press. Then head to Stepmania input options, and bind the key presses to the corresponding panels.
 
 ### Installing the sensors
 Tape the sensors to the L-bracket or the frame in your pad, so that they are in contact with the panel. The sensor may not respond well if the pressure from the panel is distributed elsewhere. To fix this, put 1-2 layers of tape size of a thumbnail onto the center of the sensor. The pressure will go into this area first, making the sensors a lot more sensitive. If your panels bend a lot, like in Cobalt Flux-like home pads, reinforce the areas under the panels with some firm material, such as linoleum or tape. Nothing like good tape to fix a pad.
