@@ -2,6 +2,8 @@
 
 For dance gamers stuck at home and looking to bring an old pad back to life or build a new one. <3
 
+![](pad.jpg)
+
 ## What are FSRs?
 FSR stands for Force-Sensitive Resistor. It is a thin piece of conductive material used to recognize varying degrees of pressure. At rest the FSR's resistance is close to infinity, but it decreases when pressure is applied. As the resistance goes down, the voltage in the circuit goes up. Measuring the voltage indicates how much pressure is applied to the sensor.
 
