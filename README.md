@@ -52,8 +52,8 @@ Here are two existing FSR dance pad repositories worth checking out:
 
 Pick an existing firmware + UI combination above, or roll your own, and the sensors should be ready to go! Verify that they register pressure and send back a key or a joystick button press. Then head to Stepmania input options, and bind the key presses to the corresponding panels.
 
-### Installing the sensors
-Tape the sensors to the L-bracket or the frame in your pad, so that they are in contact with the panel. The sensor may not respond well if the pressure from the panel is distributed elsewhere. To fix this, put 1-2 layers of tape size of a thumbnail onto the center of the sensor. The pressure will go into this area first, making the sensors a lot more sensitive. If your panels bend a lot, like in Cobalt Flux-like home pads, reinforce the areas under the panels with some firm material, such as linoleum or tape. Nothing like good tape to fix a pad.
+### Installing the sensorsr
+Tape the sensors to the L-bracket or the frame in your pad, so that they are in contact with the panel. The sensor may not respond well if the pressure from the panel is distributed elsewhere. To fix this, put 1-2 layers of tape size of a thumbnail onto the center of the sensor. The pressure will go into this area first, making the sensors a lot more responsive. If your panels bend a lot, like in Cobalt Flux and similar home pads, reinforce the areas under the panels with some firm material, such as linoleum or tape.
 
 Installation example: one FSR on the L-bracket in the up panel, two FSRs on dedicated brackets in the left panel. The control box is stored under the upper left metal panel.
 
