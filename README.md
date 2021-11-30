@@ -61,4 +61,4 @@ Installation example: one FSR on the L-bracket in the up panel, two FSRs on dedi
 ![](fsr-installation.jpg)
 
 ## Feedback
-Questions, corrections, feedback? Holler at u/SereniRi!
+Questions, corrections, feedback? Come over to [discussions](https://github.com/Sereni/fsr-pad-guide/discussions)!
