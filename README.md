@@ -49,7 +49,7 @@ While you don't necessarily need any software to use the board, it is helpful to
 Here are three existing FSR dance pad repositories worth checking out:
 * [mckyla-fsr](https://github.com/hippaheikki/mckyla-fsr) provides a sketch for a 4-sensor pad, as well as a web interface to change sensitivity. It includes player profiles, which is great for multiple-user setups. It also provides a mode that finds an optimal threshold to reduce double-triggering from vibrations.
 * [analog-dance-pad](https://github.com/kauhsa/analog-dance-pad) contains lightweight firmware specifically for Teensy 2, and a web application to configure sensitivity. It allows to set sensor thresholds individually, has real-time pressure visualization, and facilitates 1000Hz polling.
-* [teejusb's fsr](https://github.com/teejusb/fsr) does mostly the same stuff but with a different UI/sketch. Needs Teensy 3 and upwards.
+* [teejusb's fsr](https://github.com/teejusb/fsr) does mostly the same stuff but with a different UI/sketch. Supports Teensy 2/3 and most Arduinos.
 
 Pick an existing firmware + UI combination above, or roll your own, and the sensors should be ready to go! Verify that they register pressure and send back a key or a joystick button press. Then head to Stepmania input options, and bind the key presses to the corresponding panels.
 
